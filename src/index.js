@@ -29,7 +29,7 @@ inputChange.addEventListener('change', () => {
     bodyRef.classList.add(Theme.LIGHT);
   }
 });
-if(localStorage.getItem('theme') === 'darkTheme'){
+if(localStorage.getItem('Theme') === 'darkTheme'){
   inputChange.setAttribute('checked', true);
   bodyRef.classList.add(Theme.DARK);
 }
